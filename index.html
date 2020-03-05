@@ -7,40 +7,32 @@
     <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
   </head>
   <body>
-
     
     <div class="callout large primary">
       <div class="row column text-center">
-        <h1>Meme, Giphy, & Jokes Generators</h1>
-        <h2 class="subheader">The Best place for Memes,Giphy, and Jokes</h2>
+        <h1>Meme, Giph, Jokes Generator!</h1>
+        <h2 class="subheader">The Best place for comedy</h2>
       </div>
     </div>
-
     <!-- We can now combine rows and columns when there's only one column in that row -->
-    <div class="row medium-8 large-7 columns">
-      <div class="blog-post">
+    <div class="row medium-4 large-7 columns float-left">
       
-        <img class="thumbnail" src="https://placehold.it/400x350">
-      </div>
-
       <form>
         <div class="grid-container">
           <div class="grid-x grid-padding-x">
-            <div class="medium-6 cell">
-              <label>Generate Search
-                <input class="submit" type="text" placeholder="input search here">
-              </label>
-           
-          <a class="button primary" href="#">Search</a>
+            <div class="medium-4 cell">
+                <label for="search">Search</label>
+                <input id="search" type="search"/>
+                <button id="go">Go</button>
+                <!--was btnSearch-->
         </form>
-
+        <div class="out"></div>
+    </div>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
     <script>
       $(document).foundation();
     </script>
+<script src="main.js"></script> 
   </body>
 </html>
-
-
-
