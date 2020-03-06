@@ -1,0 +1,8 @@
+#go {
+    background-color: red;
+    padding: 1em 3em;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
