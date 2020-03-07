@@ -1,7 +1,11 @@
+
 var APIKEY = "o58fMMxvAkc7hySu0MF9E1duUL47viNk";
+
 document.addEventListener("DOMContentLoaded", init);
+
 function init() {
   document.getElementById("go").addEventListener("click", ev => {
+
     //This here below stops the page reload
     ev.preventDefault();
     var url = `https://api.giphy.com/v1/gifs/random?api_key=${APIKEY}&limit=1&tag=`;
@@ -25,7 +29,9 @@ function init() {
       out.insertAdjacentElement('afterbegin', giph);
       document.querySelector('#search').value = '';
     })
+
     .catch(err=>{
+
     })
   });
 }
