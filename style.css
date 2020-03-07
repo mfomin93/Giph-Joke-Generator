@@ -15,8 +15,10 @@ body {
 
 @keyframes example {
     0%   {background-color:yellow;}
+    10%   {background-color:orangered;}
     25%  {background-color:grey;}
     50%  {background-color: blue;}
+    75%   {background-color:blueviolet;}
   100% {background-color: green;}
 
 }
