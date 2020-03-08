@@ -8,10 +8,27 @@
     margin: 10px;
 }
 
+#jokeBtn {
+  background-color: red;
+  padding: 1em 3em;
+  border-radius: 100px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px; 
+}
+
 body {
-  animation-name: example;
+  /* animation-name: example;
   animation-duration: 30s;
-  animation-fill-mode: both;
+  animation-fill-mode: both; */
+  background-image: url("http://getwallpapers.com/wallpaper/full/a/9/b/234686.jpg");
+  width: auto;
+  height: auto;
+}
+
+h1 {
+  
 }
 
 @keyframes example {
