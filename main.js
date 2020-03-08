@@ -32,6 +32,6 @@ function init() {
 
     .catch(err=>{
 
-    })
+    });
   });
 }
