@@ -9,17 +9,9 @@
 }
 
 body {
-  animation-name: example;
-  animation-duration: 30s;
-  animation-fill-mode: both;
-}
-
-@keyframes example {
-    0%   {background-color:yellow;}
-    10%   {background-color:orangered;}
-    25%  {background-color:grey;}
-    50%  {background-color: blue;}
-    75%   {background-color:blueviolet;}
-  100% {background-color: green;}
-
-}
+  background-image: url("http://getwallpapers.com/wallpaper/full/a/9/b/234686.jpg");
+  width: auto;
+  height: auto;
+  padding: 40px;
+ 
+} 
