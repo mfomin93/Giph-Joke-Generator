@@ -1,17 +1,50 @@
 #go {
-    background-color: red;
-    padding: 1em 3em;
-    border-radius: 100px;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    margin: 10px;
+  background-color: red;
+  padding: 1em 3em;
+  border-radius: 100px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
 }
 
 body {
-  background-image: url("http://getwallpapers.com/wallpaper/full/a/9/b/234686.jpg");
-  width: auto;
-  height: auto;
-  padding: 40px;
- 
+background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.p2iqNbZ3pH9NhOhatwTicwHaEK%26pid%3DApi&f=1");
+background-size: cover;
+
+
 } 
+
+#jokeBtn {
+background-color: red;
+  padding: 1em 3em;
+  border-radius: 100px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+.top-button {
+  background-color: black;
+  padding: 1em 3em;
+  border-radius: 100px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+#joke-area {
+  font-size: large;
+}
+
+#giph-area {
+  font-size: large;
+}
+
+#joke-el{
+  font-size: x-large;
+  font-weight: bold;
+  margin: 10px;
+}

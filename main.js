@@ -5,6 +5,7 @@ function init() {
     ev.preventDefault();
     var userSearch = $("#search").val();
     var queryURL = `https://api.giphy.com/v1/gifs/random?api_key=${APIKEY}&limit=1&tag=${userSearch}`;
+    // var queryURL = "https://api.giphy.com/v1/gifs/random?api_key="+APIKEY+"&limit=1&tag="+userSearch;   (ECMAscript 6)
     $.ajax({
       url: queryURL,
       method: "GET"

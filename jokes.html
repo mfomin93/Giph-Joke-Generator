@@ -17,13 +17,11 @@
       <div class="title-bar-title"></div>
     </div>
     <div class="top-bar" id="example-menu">
-      <div class="top-bar-left">
-       
-          <button class="top-button"><a href="jokes.html">Click here for Jokes</a></button>
-       
-      </div>
+      <div class="top-button">
+        <button ><a href="index.html">Click here for Giphs</a></button>
       
     </div>
+</div>
     
     <div class="callout large primary">
       <div class="row column text-center">
@@ -31,26 +29,24 @@
         <h2 class="subheader animated swing" style="color: red;">The Best place for Comedy</h2>
       </div>
     </div>
-   
-   
-    <form>
-      <div id="left" class="grid-container">
-        <div class="grid-x grid-padding-x">
-          <div class="medium-4 cell">
-              <label for="search" class="animated fadeInDownBig" id="giph-area"><strong>Search</strong></label>
-              <input id="search" class="animated slideInRight" placeholder="Gif search" type="search"/>
-              <button id="go" class="animated rotateIn">Go</button>
-              
-    </form>
+  
 
-      <!-- <div class="out"></div>, dumps giphs here -->
-     <div class="out"></div>
+  <form>
+    <div id="right" class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="medium-4 cell">
+            <label for="search" class="animated fadeInDownBig" id="joke-area"><strong>Joke Generator</strong></label>
+            <button id="jokeBtn" class="animated rotateIn">Go</button>
+            
+  </form>
+   <!-- dump jokes here -->
+   <div id="joke-el"></div>
 
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-    <script src="main.js"></script> 
     
+    <script src="jokes.js"></script> 
     <script>
       $(document).foundation();
     </script>
