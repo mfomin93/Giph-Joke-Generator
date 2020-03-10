@@ -8,8 +8,8 @@ Current author: Maintenance and further contributions are made by Christopher Go
 
 Link for deployed website: 
 
-[Website] (Link for deployed website goes here)
+[Website] (https://mfomin93.github.io/Project1/)
 
 Link for deployed website image: 
 
-![Giphs and Jokes Generator](link for relative path of image in folder here)
+![Giphs and Jokes Generator](giphjokegenerator.PNG)
