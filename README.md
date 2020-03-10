@@ -8,7 +8,7 @@ Current author: Maintenance and further contributions are made by Christopher Go
 
 Link for deployed website: 
 
-[Website] (https://mfomin93.github.io/Project1/)
+[Website] (https://mfomin93.github.io/giph-joke-generator/)
 
 Link for deployed website image: 
 
